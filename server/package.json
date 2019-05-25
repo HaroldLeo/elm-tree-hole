@@ -1,0 +1,12 @@
+{
+  "name": "rest-api-server",
+  "description": "Simple server for testing purpose",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.15.0"
+  },
+  "license": "MIT"
+}

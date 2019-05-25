@@ -1,0 +1,25 @@
+html,
+
+header {
+  text-align: center;
+}
+
+body {
+  background-color: #9E8B8E;
+  color: #EFBB2C;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  color: #a6a6a6;
+  margin: 50px auto 0;
+  font-size: 14px;
+  text-align: center;
+}
