@@ -11,36 +11,6 @@
       "author": "a person",
       "article": "yo what the hell",
       "id": 2
-    },
-    {
-      "title": "test",
-      "author": "me",
-      "article": "just another test",
-      "id": 3
-    },
-    {
-      "title": "another test",
-      "author": "me again",
-      "article": "quick check",
-      "id": 4
-    },
-    {
-      "title": "duh",
-      "author": "wahhhh",
-      "article": "bruh",
-      "id": 5
-    },
-    {
-      "title": "ayyy",
-      "author": "me again and again",
-      "article": "it works yayyyy",
-      "id": 6
-    },
-    {
-      "title": "new stuff incoming",
-      "author": "me thrice",
-      "article": "lalalala\nlulululu",
-      "id": 7
     }
   ]
 }
