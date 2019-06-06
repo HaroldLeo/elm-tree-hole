@@ -1,16 +1,19 @@
 {
   "posts": [
     {
-      "title": "What is going on?",
-      "author": "some guy i guess",
-      "article": "wait a sec",
+      "title": "webdev is kinda messy",
+      "author": "just me",
+      "article": "as far as im concerned, webdev is really not that friendly to beginners, especially with elm. i believe that elm is for experienced web developers who want to try out some new stuff that might not lead to numerous runtime exceptions. As a result, the documentation isnt really helpful for absolute beginners. \n\nhowever, after playing around with elm for the last few weeks, the MVC in elm is actually well-structured and fairly easy to understand. However, what is really frustrating is the messiness in html and css, which becomes a nightmare when i went back and add a thousand more divs to make the website somewhat lookable in css. i just hope that some day a new language and replace all of them and the world will become peaceful again. ",
+      "vote": 1,
       "id": 1
-    },
+    }
+  ],
+  "comments": [
     {
-      "title": "Is this supposed to work?",
-      "author": "a person",
-      "article": "yo what the hell",
-      "id": 2
+      "postId": 1,
+      "author": "me again",
+      "content": "i agree with you 3000",
+      "id": 1
     }
   ]
 }

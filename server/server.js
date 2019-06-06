@@ -13,6 +13,11 @@ server.get('/posts', function (req, res) {
   res.jsonp(db.posts)
 })
 
+server.get('/comments', function (req, res) {
+  var db = JSON.parse(fs.readFileSync('db.json'))
+  res.jsonp(db.comments)
+})
+
 var middlewares = jsonServer.defaults()
 server.use(middlewares)
 

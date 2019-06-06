@@ -19,8 +19,12 @@ and open index.html in a browser of your choice.
 
 ## Reference
 I used [JSON server](https://github.com/typicode/json-server) for the backend part of the project for now. 
+In addition, 
+
+## Update
+19/06/05: Added comment functionality and upvote/functionality. Also updated the styling. 
 
 ## Future Improvement
-Definitely will update the styling and more functionalities such as comment and upvote/downvote. Stay tune...
+Definitely will update the styling and more functionalities. Stay tune...
 
 ##### (I do not plan to deploy the website until I learn more about the backend part of the web development.)

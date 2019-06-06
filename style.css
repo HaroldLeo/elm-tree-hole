@@ -1,23 +1,147 @@
 html,
 
-header {
+.header {
   text-align: center;
 }
 
 body {
-  background-color: #9E8B8E;
-  color: #EFBB2C;
-  font-family: "Times New Roman", Georgia, Serif;
+  background-color: #E5E2E4;
+  color: #0C0C0C;
+  font-family: "Helvetica Neue", "Helvetica", "Verdana", Arial, sans-serif;
   line-height: 1.4em;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 3px;
 }
 
-h1 {
+.post {
+  background-color: #F6F7F8;
+  box-shadow: 10px 5px 5px #BBBCBF;
+  float: left;
+  border: 1px #ccc solid;
+  margin: 10px;
+  width: 30%;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.upvote {
+  text-align = center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 37px;
+  border: none;
+  cursor: pointer;
+}
+
+.upvote:hover {
+  background-color: #3F4551;
+}
+
+.vote-num {
   text-align: center;
 }
 
+.downvote {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 37px;
+  border: none;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.downvote:hover {
+  background-color: #3F4551
+}
+
+.comment-button, .comment-submit {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.comment-button:hover, .comment-submit:hover {
+  background-color: #3F4551;
+}
+
+.commenting input[type="text"], .commenting textarea{
+  padding: 12px;
+  width: 40%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.comment .author {
+  border-top: 1px solid #ccc;
+}
+
+.posting {
+  text-align: center;
+}
+
+.posting .post-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.posting .post-button:hover {
+  background-color: #3F4551;
+}
+
+.posting .formgroup {
+  padding-bottom: 15px;
+}
+
+.posting input[type="text"], .form-group textarea{
+  padding: 12px;
+  width: 40%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+
+.posting .submit-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.posting .submit-button:hover {
+  background-color: #3F4551;
+}
+
+.article {
+  text-indent: 30px;
+}
+
+p, h5 {
+  text-align: left;
+}
+
+h4 {
+  text-align: right;
+}
+
+
 footer {
+  clear: both;
   color: #a6a6a6;
   margin: 50px auto 0;
   font-size: 14px;
